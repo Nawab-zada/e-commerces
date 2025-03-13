@@ -1,5 +1,3 @@
-import React from 'react'
-
 export interface DropDownItem {
   label: string;
   href: string;
@@ -13,7 +11,6 @@ export interface Navbaritemtype {
 }
 
 export const Navbararray: Array<Navbaritemtype> = [
- 
   {
     label: "Female",
     href: "female",
@@ -49,6 +46,6 @@ export const Navbararray: Array<Navbaritemtype> = [
     href: "/products",
     isDropDown: false
   }
-]
+];
 
-export default Navbararray
+export default Navbararray;
